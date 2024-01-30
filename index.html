@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="imagens/mao-aberta.ico">
+    <title>Purrinha - Jogo</title>
+    
+    <!--- LINK DE REFERENCIA STYLE --->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!--- CABECALHO DO SITE --->
+    <header>
+        <h1>Purrinha</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- CONTEUDO DO SITE --->
+    <main>
+        <h2>Purrinha</h2>
+        <p> Descubra a arte de jogar "Purrinha" (também conhecida como "Porrinha" ou "Palitinho"), um jogo que se vale
+            de pedaços de papel, moedas, feijões ou palitos quebrados.
+            Este é um jogo para 3 ou mais pessoas. Nesta simulação, embarcaremos em uma partida com três participantes,
+            sendo você um deles. Cada jogador inicia com três palitinhos em mãos e enfrenta o desafio de escolher a
+            quantidade exata a esconder,
+            tornando a experiência cheia de estratégia e suspense. Venha conhecer um dos jogos de boteco mais
+            tradicionais do Brasil!
+        </p>
+
+        <h2>Regras:</h2>
+        <p>
+            Cada jogador escolhe o número de pedaços que vai usar, de zero a três, e quando nenhum palito é usado se
+            chama lona.
+            A roda gira no sentido horário e o primeiro a tentar adivinhar o número de palitos em jogo vira o último na
+            rodada seguinte.
+            Ganha aquele que acertar o total de palitos na rodada. No bar o último paga a conta.
+        </p>
+
+        
+        <h2>Jogo:</h2>
+        <p>-- Em desenvolvimento! --</p>
+        <img id="img1" src="imagens/fehando.gif"><br>
+        <div class="form">
+            <form method="GET" action="jogo.html"></form>
+            <label for="campoJogada">Escolha quantos palitos deseja mostrar (0 a 3): </label>
+            <input type="number" id="campoPalpite" class="campoJogada">
+            <input type="submit" value="Jogar" class="envioJogada" onclick="conferirJogada();">
+
+        </div>
+
+      
+
+    </main>
+
+    <!--- RODAPE --->
+    <footer>
+        &copy;2023 Todos os direitos reservados.
+    </footer>
+</body>
+
+
+</html>
